@@ -1,0 +1,232 @@
+body{
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+    padding-top: 80px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header{
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    top:0px;
+    right:0px;
+    left:0px;
+    height: 80px;
+    z-index: 1;
+}
+
+.swiggyIcon{
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    margin-left: 110px;
+    cursor: pointer;
+}
+
+.location{
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    margin-left: 50px;
+    height: 30px;
+    width: 340px;
+    cursor: pointer;
+}
+
+.borderBottom{
+    border: 0px;
+    border-bottom: 3px;
+    border-style: solid;
+}
+
+.arrow{
+    height: 10px;
+    width: 20px;
+    cursor: pointer;
+}
+
+
+.topRightDiv{
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    right: 150px;
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+.topIconDiv{
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+}
+
+.topRightIcon{
+    height: 17px;
+    width: 17px;
+    cursor: pointer;
+}
+
+.showcase{
+    background-color:#111527;
+    height: 340px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ads{
+    height: 260px;
+    width: 260px;
+    margin-left: 50px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.filterDiv
+{
+    margin-top: 20px;
+    margin-left: 190px;
+    background-color: rgb(255, 255, 255);
+    height: 70px;
+    margin-right: 140px;
+    position: relative;
+}
+
+.restaurantsNum{
+    position: absolute;
+    bottom: 10px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.filterIconsDiv{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    position: absolute;
+    bottom: 15px;
+    right: 0px;
+    width: 800px;
+    justify-content: space-between;
+}
+
+.filterIcons{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.filterIcon{
+    height: 20px;
+    display: inline;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+.grid{
+    background-color: rgb(255, 255, 255);
+    margin-left: 190px;
+    margin-right: 140px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.card{
+    background-color: rgb(255, 255, 255);
+    height: 290px;
+    width: 254px;
+    display: inline-block;
+    padding: 20px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.foodImg{
+    width: 254px;
+    height: 160px;
+    object-fit: cover;
+}
+
+.rating{
+    background-color: tomato;
+    display: inline-block;
+    color: white;
+}
+
+.detailsDiv{
+    font-size: small;
+}
+
+.discountIcon{
+    width: 15px;
+    height: 15px;
+}
+.off{
+    color: #8a584b;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    padding-top: 50px;
+}
+
+.footerHorizontalDiv{
+    background-color: rgb(0, 0, 0);
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.footerVerticalDiv{
+    background-color: rgb(0, 0, 0);
+}
+
+.download{
+    margin-top: 20px;
+    height: 50px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.footerEnd{
+    background-color: rgb(0, 0, 0);
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contacts{
+    background-color: #000000;
+    display: inline-block;
+}
+
+.twitter{
+    width: 25px;
+    height: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.contactIcon{
+    width: 25px;
+    height: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 25px;
+}
+
+.swiggyLogoDark {
+    height: 40px;
+}
+
+.borderTop{
+    border-top: 2px solid rgb(195, 195, 195);
+}
